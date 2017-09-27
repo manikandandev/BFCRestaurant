@@ -1,0 +1,38 @@
+<?php
+/**
+ * CartSMS extension - Example
+ * © TOPefekt s.r.o. Czech republic
+ * Lukas Pijak pijak@topefekt.com
+ * Date: 9.2.2015
+ * Licence: http://www.cart-sms.com/licence/licence_en.pdf
+ */
+
+require_once 'sms.php';
+
+class HooksExtensions extends HooksExtensionsBase
+{
+    public function __construct($db, $variables)
+    {
+        parent::__construct($db, $variables);
+    }
+    
+    protected function variables()
+    {
+        /*  Example select from DB
+        // get {order_id} variable from message 
+        if($this->getVariable("order_id"))
+        {
+            $result = $this->Execute("SELECT variable FROM `" . DB_PREFIX . "order` WHERE order_id = '" . $this->escape($this->getVariable("order_id")) . "' ");
+
+            if($result->num_rows)
+            {
+                foreach($result->rows as $row)
+                {
+                    // set {variable} in message
+                    $this->setVariable("variable", $row["variable"]);
+                }
+            }
+        }
+        */
+    }
+}

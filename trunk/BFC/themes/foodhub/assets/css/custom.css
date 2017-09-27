@@ -1,0 +1,157 @@
+/********************************************************
+			Pixothemes Custom Styles
+********************************************************/
+.owl-carousel {
+  display: none;
+  position: relative;
+  float: left;
+  width: 100%;
+  margin: 0 0 10px;
+  -ms-touch-action: pan-y;
+}
+.owl-carousel .owl-wrapper {
+  display: none;
+  position: relative;
+  -webkit-transform: translate3d(0px, 0px, 0px);
+}
+.owl-carousel .owl-wrapper:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+.owl-carousel .owl-wrapper-outer {
+  overflow: hidden;
+  position: relative;
+  float: left;
+  width: 100%;
+  margin-bottom: 25px;
+}
+.owl-carousel .owl-wrapper-outer.autoHeight {
+  -webkit-transition: height 500ms ease-in-out;
+  -moz-transition: height 500ms ease-in-out;
+  -ms-transition: height 500ms ease-in-out;
+  -o-transition: height 500ms ease-in-out;
+  transition: height 500ms ease-in-out;
+}
+.owl-carousel .owl-item {
+  float: left;
+}
+.owl-carousel .owl-item .manu_image a {
+  display: inline-block;
+}
+.owl-carousel .owl-item .manu_image a img {
+  max-width: 100%;
+}
+.owl-carousel .owl-item:hover a img {
+  border-color: blue;
+}
+.owl-carousel .owl-wrapper,
+.owl-carousel .owl-item {
+  /* fix */
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  text-align: center;
+  
+}
+
+/* mouse grab icon */
+.grabbing {
+  cursor: url("../img/megnor/grabbing.png") 8 8, move;
+}
+ 
+.customNavigation {
+  position: absolute;
+  z-index: 959;
+  width: 100%;
+  top: 35%;
+  color:#b3b3b3;
+  direction: ltr !important;
+}
+.customNavigation a {
+  position: absolute;
+  font-size: 50px;
+  line-height: 32px;
+  padding: 0;
+  background: none;
+  color: #ccc;
+  border: none;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+  height: 30px;
+  width: 36px;
+  cursor: pointer;
+  overflow: hidden;
+  -webkit-transition: all 0.5s ease;
+  -webkit-transition-delay: 0s;
+  -moz-transition: all 0.5s ease 0s;
+  -o-transition: all 0.5s ease 0s;
+  transition: all 0.5s ease 0s;
+}
+
+.customNavigation a:hover{
+	border-color: none;
+}
+.customNavigation a:hover:before{ color: #FA9007; }
+
+.customNavigation a.prev {
+  left: -35px;
+}
+.customNavigation a.next {
+  right: -20px;
+}
+@media (max-width: 1300px) {
+}
+@media (max-width: 991px) {
+	.customNavigation a.prev {
+		left: 0px;
+	}
+	.customNavigation a.next {
+		right: 0px;
+	}
+	#main .images-container .js-qv-mask { margin:0px; }
+}
+@media (max-width: 767px) {
+}
+.customNavigation a.prev:before {
+  content: "\E314";
+  font-family: "Material Icons";
+}
+.customNavigation a.next:before {
+  content: "\E315";
+  font-family: "Material Icons";
+}
+
+#pxleftbanner img,
+#pxrightbanner img{
+	max-width: 100%;
+}	
+
+/******* Subbanner *******/
+#pxsubbanner {
+    float: left;
+    margin: 30px 0;
+}
+#pxsubbanner li {
+    float: left;
+	width: 50%;
+}
+#pxsubbanner li a{
+   display: block;
+}
+#pxsubbanner li img{ width: 100%; }
+#pxsubbanner li:first-child,
+#pxsubbanner li:last-child {
+    padding-right: 10px;
+}
+
+/******* Px-CMS Block *******/

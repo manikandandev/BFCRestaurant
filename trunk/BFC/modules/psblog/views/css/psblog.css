@@ -1,0 +1,699 @@
+/* category */
+/* blog listing */
+.blog-meta {
+  margin-bottom: 10px;
+}
+.blog-meta > span {
+  margin-right: 15px;
+  padding-right:15px;
+  color: #8A8A8A;
+  position: relative;
+  text-transform:capitalize;
+  color:#000000;
+  
+}
+#blog-listing .blog-meta > span { color:#000; border:none; padding:0; margin-right:5px; }
+.leading-blog .blog-meta > span { color:#000; border:none; padding:0; margin-right:5px; }
+.Recnet-blog .blog-meta > span { color:#000; border:none; padding:0; margin-right:5px; }
+#blogpage .blog-meta > span { color:#000; border:none; padding:0; font-style:italic; }
+.blog-meta > span + span { border:none; }
+.blog-meta > span:last-child:before {
+  display: none;
+}
+.blog-meta > span span {
+  color: #222;
+}
+.homeblog-inner{
+	position: relative;
+	float: left;
+    width: 100%;
+	padding-top:25px;
+  border-top: 1px solid #DCDDDD;
+}
+.homeblog-inner li.blog-post .blog-item{
+	padding: 0 15px;
+}
+.homeblog-inner li.blog-post{padding:0;}
+.homeblog-inner li .blog-item { margin-bottom: 0px; }
+
+.homeblog-inner .customNavigation {left: 0;
+    margin: 0 auto;
+    right: 0;
+    top: 100%;
+    width: 121px; }
+
+.homeblog-inner .customNavigation a.prev{
+    background-position: 1px 20px; 
+    left: 0;
+}
+
+.homeblog-inner .customNavigation a.prev:hover {background-position: 1px -20px; }
+
+.homeblog-inner .customNavigation a.next { right:0; background-position: -90px 20px;}
+.homeblog-inner .customNavigation a.next:hover {right: 0; background-position: -90px -20px;}
+
+.blog-item {
+  background-color: #fff;
+  position: relative;
+  margin-bottom: 50px;
+  margin-top: 0; 
+  font-size: 14px;
+}
+.blog-item .blog-content-wrap {
+  padding: 20px 20px;
+  background-color: #fff;
+  text-align: left;
+}
+.blog-item .blog-content-wrap .title {
+  font-size: 16px;
+  font-weight: normal;
+  text-transform: capitalize;
+  line-height: 20px;
+  margin-top:5px;
+  margin-bottom: 10px; 
+}
+
+.ttblog-latest{
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+.ttblog-latest .blog-item .blog-meta,
+.secondary-blog .blog-item .blog-meta{
+	text-transform: uppercase;
+    margin: 0;
+    padding: 15px 15px;
+    color: black;
+    background: #f1f1f1;
+    text-align: left;
+    position: relative;
+    width: 100%;
+    display:inline-block;
+    -webkit-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+}
+.blog-item .readmore{
+	padding: 10px 0 5px 0;
+}
+.blog-item .readmore a { color:#df5a49 ; font-weight:normal; text-transform:capitalize; font-size:14px; }
+.blog-item .readmore a:hover { color:#000000; } 
+.blog-item .readmore .btn{ padding: 0px; }
+
+.blog-item .blog-content-wrap .readmore p {
+  margin-bottom: 0;
+  margin-top: 10px;
+}
+.blog-item .blog-content-wrap .readmore p .btn {
+  border: 1px solid #e5e5e5;
+  text-transform: capitalize;
+  font-size: 10px;
+}
+.blog-item .blog-content-wrap .readmore p .btn:hover {
+  border-color: #2fb5d2;
+}
+.blog-item .blog-content-wrap .blog-shortinfo {
+  line-height: 24px;
+}
+.blog-item .blog-content-wrap .blog-shortinfo .more {
+  height: 0;
+  padding: 0;
+    color: #df5a49 ;
+    font-size: 14px;
+    font-weight: normal;
+    height: 0;
+    padding: 0;
+    text-transform: capitalize;
+}
+.blog-item .blog-content-wrap .blog-shortinfo .more:hover { color:#000000; } 
+.blog-item .blog-content-wrap .blog-shortinfo .more i {
+  color: #888;
+}
+.blog-item .blog-content-wrap .blog-shortinfo .more i:hover {
+  color: #222;
+}
+.blog-item .blog-image {
+  text-align: right;
+  padding: 0;
+  position: relative;
+}
+
+.blog-detail {
+  background-color: #fff;
+  margin-bottom: 120px; 
+}
+.blog-detail > div {
+  margin-bottom: 20px;
+}
+.blog-detail .blog-image {
+  padding-bottom:0px;
+  margin-bottom:0;
+}
+#blogpage .blog-meta { margin-bottom:5px; }
+.blog-detail .blog-title {
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #000;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.blog-detail .blog-description {
+  font-size: 14px;
+  text-align: justify;
+  margin-bottom: 25px;
+  padding-bottom:20px;
+  border-bottom:1px solid #e6e6e6;
+}
+.blog-detail .social-share {
+  display: inline-block;
+  float: left;
+}
+.social-share .itemTwitterButton,
+.social-share .itemFacebookButton,
+.social-share .itemGooglePlusOneButton{
+	margin-bottom: 10px;
+}
+.blog-detail .extra-blogs {
+  display: inline-block;
+  width: 100%;
+}
+.blog-detail .extra-blogs h4{
+	margin-bottom:15px;
+	font-weight: 600;
+	color: #000;
+}
+.blog-detail .extra-blogs ul{
+	padding-left: 25px;
+}
+.blog-detail .extra-blogs ul li{
+	list-style: disc;
+	padding: 3px 0;
+}
+.blog-detail .blog-tags {
+  display: inline-block;
+  float: right;
+}
+.blog-detail .blog-tags > span {
+  font-weight: bold;
+  font-size: 14px;
+  margin-right: 15px;
+}
+.blog-detail .blog-comment-block #blog-localengine .comment-item {
+  padding: 30px;
+  margin-bottom: 30px;
+  border: 1px solid #e6e6e6;
+  border-radius: 0px;
+}
+.blog-detail .blog-comment-block #blog-localengine .comment-item .comment-wrap {
+  margin-left: 80px;
+}
+.blog-detail .blog-comment-block #blog-localengine .comment-item .comment-wrap .comment-meta {
+  color: #222;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.blog-detail .blog-comment-block #blog-localengine .comment-item .comment-wrap .comment-meta > span {
+  margin-right: 15px;
+}
+.blog-detail .blog-comment-block #blog-localengine .comment-item .comment-wrap .comment-meta > span span {
+  color: #888;
+  margin-left: 10px;
+  font-weight: normal;
+}
+.blog-detail .blog-comment-block #blog-localengine .form-group {
+  margin-bottom: 20px;
+}
+.blog-detail .blog-comment-block .btn-send {
+  padding: 0 15px;
+  height: 40px;
+  line-height: 40px;
+  min-width: 110px;
+  text-align: center;
+  color: #fff;
+  background-color: #eee;
+  font-weight: 600;
+  float: right;
+  border-radius: 3px;
+}
+.blog-detail .blog-comment-block .btn-send i {
+  margin-right: 10px;
+  font-weight: 800;
+}
+.blog-detail .blog-comment-block .btn-send:hover {
+  background-color: #222;
+}
+
+.blog-comment-block h3{
+	margin-bottom:15px;
+	font-weight: 600;
+	color: #000;
+	font-size:18px;
+	text-transform:uppercase;
+}
+.blog-comment-block #comment-form{ margin-top: 30px; }
+.comment-capcha-image{ margin-bottom: 10px; }
+h1.blog-heading{
+    color: #000000;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+.ps-carousel { display: none; }
+#blog-category{ margin-bottom: 30px;  }
+.Recent-title
+	{ margin-bottom: 30px; 
+	color: #000000;
+    font-size: 18px;
+    font-weight: 600; 
+    text-transform: uppercase;
+}
+.subcategories-title{ margin-bottom: 20px; }
+.category-title{ 
+	padding: 15px 0 5px;
+    text-transform: capitalize;
+    font-weight: 500;
+    font-size: 15px;
+}
+.secondary-blog .flexRow{ 
+	clear: both;
+    float: left;
+}
+.pagination-block{
+    float: right;
+	margin:0;
+}
+.pagination .product-count {
+    float: left;
+    margin: 3px 5px;
+	line-height:24px !important; 
+}
+
+.Recnet-blog .pagination { padding:10px 0; }
+
+.pagination li{ 
+	background: #FFFFFF;
+    display: inline-block;
+    float: left;
+    margin: 0 0 0 4px;
+    padding: 0px;
+}
+
+.pagination li.previous > span,
+.pagination li.next > span{ width: 30px;height:30px;font-size:0;}
+
+.pagination .previous,
+.pagination .next {
+	width: 30px;height:30px;font-size:0;
+	padding:0;
+}
+
+.pagination li a,
+.pagination li > span{
+    height: 30px;
+    margin: 0;
+    width: 30px;
+	line-height:30px;
+	text-align:center;
+    color: #000000;
+    background: none;
+    border: none;
+    display: block;
+	font-weight:normal;
+	border: 1px solid #e6e6e6;
+	padding:0;
+}
+.pagination li.active > span,
+.pagination li.current > span,
+.pagination li a:hover{
+    color: #ffffff;
+    border-color: #df5a49;
+    background-color: #df5a49;
+}
+.pagination .disabled .material-icons{
+	color: #bbbbbb;
+}
+.pagination .disabled:hover .material-icons { color:#FFFFFF; }
+
+#blog-listing .pagination li{ 
+	background: #FFFFFF;
+    display: inline-block;
+    float: left;
+    margin: 0 0 0 4px;
+    padding: 0px;
+}
+
+#blog-listing .pagination li.previous > span,
+#blog-listing .pagination li.next > span{  }
+#blog-listing .pagination .previous b, #blog-listing .pagination .next b { font-weight:normal; }
+#blog-listing .pagination .previous,
+#blog-listing .pagination .next {
+	font-size: 14px;
+	width: auto;
+}
+#blog-listing #pagination{
+	float: right;
+	width: 100%;
+	margin: 10px 0;
+}
+#blog-listing .pagination li a,
+#blog-listing .pagination li > span{
+	height: 30px;
+    margin: 0; 
+    width: 30px;
+    color: #000;
+    background: none;
+    border: none;
+    display: block; 
+    border: 1px solid #ddd;
+}
+#blog-listing .pagination li.active > span,
+#blog-listing .pagination li.current > span,
+#blog-listing .pagination li a:hover{
+	color: #FFFFFF;
+    border-color: #df5a49 ;
+    background-color: #df5a49 ;
+}
+#blog-listing .product-count{
+    float: left; 
+}
+#left-column #categories_blog_menu ul li{padding:3px 0;}
+#left-column #categories_blog_menu ul li a {
+    line-height: 26px;
+}
+#left-column #categories_blog_menu ul .level2{margin-left:15px;} 
+.secondary-blog .blog-content-wrap,.homeblog-inner .blog-content-wrap{
+	/*border-width: 0 1px 1px;
+    border-style: solid;
+    border-color: #ececec;*/
+	padding:1px 0px;
+	float:left;
+	width:100%;
+}
+@media (max-width: 1249px) and (min-width: 992px){
+  
+  
+}
+@media (max-width: 991px){ 
+  .blog-container .pxblog-latest .products-section-title{font-size: 24px!important;}
+
+
+}
+@media (max-width: 767px){
+  .blog-container .pxblog-latest .products-section-title{font-size: 22px!important;}
+  
+
+}
+@media (max-width: 479px){
+
+  .blog-container .pxblog-latest .products-section-title{font-size: 20px!important; }
+  .homeblog-inner{padding-top: 0;}
+  .blog-item .blog-content-wrap .title{font-size: 12px;font-weight: normal;}
+  .homeblog-inner{border-top: none;}
+
+}
+@media (max-width: 320px){
+   .blog-container .pxblog-latest .products-section-title{font-size: 22px!important; }
+   .products .all-product-link{font-size: 10px;}
+
+}
+
+.homeblog-inner .blog-meta {
+    padding:0px;
+	/*display:inline-block;*/
+	
+	float:left;
+	margin-right:20px;
+	margin-top:5px;
+}
+.homeblog-inner li.blog-post:hover .blog-meta {  }
+.homeblog-inner li.blog-post:hover .blog-meta > span { color:#000000; border-color:#000000; }
+.homeblog-inner li.blog-post:hover .blog-meta i.material-icons { color:#000000; }
+.homeblog-inner .blog-meta span { float:left; line-height: 18px;  text-transform: uppercase;}
+.blog-container .pxblog-latest{margin:40px -15px;}
+.blog-container .pxblog-latest .products-section-title { 
+	margin:0 15px 10px; 
+	color:#000000;
+	font-size:32px;
+	font-weight:bold;
+	
+	border:none;
+	letter-spacing:0px;
+}
+.container.blog-container { margin: auto;padding-bottom: 25px; }
+.homeblog-inner .blog_grid.row{margin:0;}
+.leading-blog  .blog-content-wrap{padding:0 15px;}
+.blog-meta i.material-icons {
+    font-size: 15px;
+	color: #000;
+	margin-top: -2px;
+}
+#blog-category h1{
+    color: #000000;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.pxblog-latest .blog-item .blogicons{
+    bottom: 0;
+    height: 51px;
+    left: 0;
+    margin: auto;
+    opacity: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transition: all 0.3s ease 0s;
+    width: 100px;
+
+}
+.pxblog-latest .blog-item:hover .blogicons { opacity:1; }
+
+.pxblog-latest .blog-item .blogicons .zoom {  
+	border: 2px solid #ffffff;
+    border-radius: 50%;
+    bottom: 0;
+    color: #ffffff;
+    font-size: 14px;
+    height: 45px;
+    left: 0;
+	right:0;
+    margin: auto;
+    padding: 10px;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    transition: all 0.3s ease 0s;
+    width: 45px;
+}
+
+.pxblog-latest .blog-item .blogicons .zoom:hover { background:#FFFFFF; color:#000000; }
+
+
+/* LIGHT BOX*/
+
+/* line 7, ../sass/lightbox.sass */
+body:after {
+  content:url(../img/lightbox/close.png) url(../img/lightbox/loading.gif) url(../img/lightbox/prev.png) url(../img/lightbox/next.png);
+  display: none;
+}
+
+/* line 11, ../sass/lightbox.sass */
+.lightboxOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  background-color: black;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
+  opacity: 0.8;
+  display: none;
+}
+
+/* line 20, ../sass/lightbox.sass */
+.lightbox {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  z-index: 10000;
+  text-align: center;
+  line-height: 0;
+  font-weight: normal;
+}
+/* line 28, ../sass/lightbox.sass */
+.lightbox .lb-image {
+  display: block;
+  height: auto;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+}
+/* line 32, ../sass/lightbox.sass */
+.lightbox a img {
+  border: none;
+}
+
+/* line 35, ../sass/lightbox.sass */
+.lb-outerContainer {
+  position: relative;
+  background-color: white;
+  zoom: 1;
+  width: 250px;
+  height: 250px;
+  margin: 0 auto;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+}
+/* line 38, ../../.rvm/gems/ruby-1.9.3-p392/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+.lb-outerContainer:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* line 44, ../sass/lightbox.sass */
+.lb-container {
+  padding: 0px;
+}
+
+/* line 47, ../sass/lightbox.sass */
+.lb-loader {
+  position: absolute;
+  top: 43%;
+  left: 0%;
+  height: 25%;
+  width: 100%;
+  text-align: center;
+  line-height: 0;
+}
+
+/* line 56, ../sass/lightbox.sass */
+.lb-cancel {
+  display: block;
+  width: 32px;
+  height: 32px;
+  margin: 0 auto;
+  background:url(../img/lightbox/loading.gif) no-repeat;
+}
+
+/* line 63, ../sass/lightbox.sass */
+.lb-nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 10;
+}
+
+/* line 71, ../sass/lightbox.sass */
+.lb-container > .nav {
+  left: 0;
+}
+
+/* line 74, ../sass/lightbox.sass */
+.lb-nav a {
+  outline: none;
+}
+
+/* line 77, ../sass/lightbox.sass */
+.lb-prev, .lb-next {
+  width: 49%;
+  height: 100%;
+  cursor: pointer;
+  /* Trick IE into showing hover */
+  display: block;
+}
+
+/* line 84, ../sass/lightbox.sass */
+.lb-prev {
+  left: 0;
+  float: left;
+}
+/* line 87, ../sass/lightbox.sass */
+.lb-prev:hover {
+  background:url(../img/lightbox/prev.png) left 48% no-repeat;
+}
+
+/* line 90, ../sass/lightbox.sass */
+.lb-next {
+  right: 0;
+  float: right;
+}
+/* line 93, ../sass/lightbox.sass */
+.lb-next:hover {
+  background:url(../img/lightbox/next.png) right 48% no-repeat;
+}
+
+/* line 96, ../sass/lightbox.sass */
+.lb-dataContainer {
+  margin: 0 auto;
+  padding-top: 5px;
+  zoom: 1;
+  width: 100%;
+  -moz-border-radius-bottomleft: 4px;
+  -webkit-border-bottom-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  -moz-border-radius-bottomright: 4px;
+  -webkit-border-bottom-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+/* line 38, ../../.rvm/gems/ruby-1.9.3-p392/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+.lb-dataContainer:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* line 103, ../sass/lightbox.sass */
+.lb-data {
+  padding: 0 4px;
+  color: #bbbbbb;
+}
+/* line 106, ../sass/lightbox.sass */
+.lb-data .lb-details {
+  width: 85%;
+  float: left;
+  text-align: left;
+  line-height: 1.1em;
+}
+/* line 111, ../sass/lightbox.sass */
+.lb-data .lb-caption {
+  font-size: 13px;
+  font-weight: bold;
+  line-height: 1em;
+}
+/* line 115, ../sass/lightbox.sass */
+.lb-data .lb-number {
+  display: block;
+  clear: left;
+  padding-bottom: 1em;
+  font-size: 12px;
+  color: #999999;
+}
+/* line 121, ../sass/lightbox.sass */
+.lb-data .lb-close {
+  display: block;
+  float: right;
+  width: 30px;
+  height: 30px;
+  background:url(../img/lightbox/close.png) top right no-repeat;
+  text-align: right;
+  outline: none;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);
+  opacity: 0.7;
+}
+/* line 130, ../sass/lightbox.sass */
+.lb-data .lb-close:hover {
+  cursor: pointer;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+  opacity: 1;
+}
+/* LIGHT BOX*/
+
