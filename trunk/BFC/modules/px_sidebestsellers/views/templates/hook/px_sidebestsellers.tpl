@@ -23,8 +23,8 @@
 *  International Registered Trademark & Property of PrestaShop SA
 *}
 <div class="sidebar-bestseller block">
-  <h4 class="block_title hidden-md-down">{l s='Best Sellers' d='Modules.SideBestsellers.Shop'}</h4>
-  <h4 class="block_title hidden-lg-up" data-target="#block_bestseller_toggle" data-toggle="collapse">{l s='Best Sellers' d='Modules.SideBestsellers.Shop'}
+  <h4 class="block_title hidden-md-down">{l s='Best Sold Items' d='Modules.SideBestsellers.Shop'}</h4>
+  <h4 class="block_title hidden-lg-up" data-target="#block_bestseller_toggle" data-toggle="collapse">{l s='Best Sold Items' d='Modules.SideBestsellers.Shop'}
     <span class="pull-xs-right">
       <span class="navbar-toggler collapse-icons">
       <i class="material-icons add">&#xE313;</i>
@@ -93,7 +93,7 @@
     {/foreach}
   </div>
   <div class="clearfix">
-  <a href="{$allBestSellers}" class="allproducts">{l s='All best sellers' d='Modules.SideBestsellers.Shop'}</a>
+  <a href="{$allBestSellers}" class="allproducts">{l s='' d='Modules.SideBestsellers.Shop'}</a>
   </div>
   </div>
 </div>

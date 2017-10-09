@@ -1,0 +1,32 @@
+Step1:
+=====
+In ps_configuration table change the Ps_SHOP_DOMAIN and PS_SHOP_DOMAIN_SSL values
+(ex: www.bfcrestaurant.fr)
+
+
+Step2:
+=====
+git clone https://github.com/manikandandev/BFCRestaurant.git
+
+Step3:
+=====
+mv vendor.bak vendor
+
+Step4:
+=====
+Sudo vim /etc/httpd/conf/httpd.conf
+
+Add the below coding in end of the conf file.
+
+<VirtualHost *:80>
+    DocumentRoot "/var/www/html/BFC"
+    ServerName www.bfcrestaurant.fr
+    ServerAlias www.bfcrestaurant.fr
+<Directory "/var/www/html/BFC">
+    AllowOverride All
+    Require all Granted
+</Directory>
+</VirtualHost>
+
+
+
